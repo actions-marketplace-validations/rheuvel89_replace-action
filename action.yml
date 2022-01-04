@@ -1,15 +1,18 @@
 name: 'Replace Action'
-description: 'Replaces substrings in files. Useful to enrich configs with previous steps artifacts.'
-author: Data Monsters
+description: 'Replaces (sub)strings in files. Useful to enrich configs with previous steps artifacts.'
+author: rheuvel89
 branding:
   icon: 'repeat'  
   color: 'green'
 inputs:
   files:
-    description: 'Files, comma-separated. Supposed PLACEHOLDER in them'
+    description: 'Comma-seperated files list to find and replace in'
     required: true
-  replacements:
-    description: 'Comma-separated pairs PLACEHOLDER=value'
+  source:
+    description: 'Source string to be found'
+    required: true
+  replacement:
+    description: 'Replacement string to be replaced with'
     required: true
 runs:
   using: 'node12'

@@ -8,7 +8,7 @@ See [action.yml](action.yml)
 
 ```yaml
 
-uses: datamonsters/replace-action
+uses: rheuvel89/replace-action@v1
 with:
   files: 'path1/file1,path2/file2'
   replacements: 'foo=bar,$FOO=Bar_Value'
