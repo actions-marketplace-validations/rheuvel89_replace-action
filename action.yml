@@ -1,4 +1,4 @@
-name: 'Replace Action'
+name: 'Find and replace Action'
 description: 'Replaces (sub)strings in files. Useful to enrich configs with previous steps artifacts.'
 author: rheuvel89
 branding:
